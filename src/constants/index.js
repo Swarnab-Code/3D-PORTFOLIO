@@ -1,7 +1,6 @@
 import {
 	react,
 	fullstack,
-	python,
 	web,
 	javascript,
 	html,
@@ -10,11 +9,11 @@ import {
 	tailwind,
 	nodejs,
 	mongodb,
-	topstack,
 	skillcraft,
+	iitpatna,
 	ecommexpress,
 	zoomora,
-	skillroute,
+	todoapp,
 	threejs,
 	sih,
 } from '../assets';
@@ -50,10 +49,6 @@ const services = [
 	{
 		title: 'Full Stack Developer',
 		icon: fullstack,
-	},
-	{
-		title: 'Python Developer',
-		icon: python,
 	},
 ];
 
@@ -94,26 +89,25 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Full Stack Developer Intern',
-		company_name: 'TopStack India',
-		icon: topstack,
-		iconBg: '#E6DEDD',
-		date: 'November 2024 - Present',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-		],
-	},
-	{
 		title: 'Web Developer Intern',
 		company_name: 'SkillCraft Technology',
 		icon: skillcraft,
 		iconBg: '#E6DEDD',
-		date: 'December 2024 - Present',
+		date: 'December 2024',
 		points: [
 			'Developing and maintaining web applications using HTML, CSS, JavaScript, React.js, and other related technologies.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
+		],
+	},
+	{
+		title: 'Deep Graph Learning Research Intern',
+		company_name: 'IIT PATNA',
+		icon: iitpatna,
+		iconBg: '#E6DEDD',
+		date: 'June 2025 - Present',
+		points: [
+			'Analyze and implement the SIEGE model for detecting phishing scams in Ethereum transaction networks.',
+			'Develop and train advanced self-supervised graph neural network pipelines combining spatial and temporal pretext tasks.',
 		],
 	},
 ];
@@ -181,25 +175,29 @@ const projects = [
 		source_code_link: 'https://github.com/Soumi-Code/ZOOMORA',
 	},
 	{
-		name: 'E-learning Platform',
+		name: 'To-Do Web Application',
 		description:
-			'Our Educational Website would provide all the education related stuffs. We have added Quizzes for Students to solve problems on different topics. We have also added Interview questions for students for placements.',
+			'A To-Do Web Application designed to manage daily tasks efficiently. It includes features like login and registration, adding tasks with descriptions, filtering tasks based on their status, and editing or deleting tasks.',
 		tags: [
 			{
-				name: 'html',
+				name: 'react',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'css',
+				name: 'mongodb',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'js',
+				name: 'tailwind',
 				color: 'pink-text-gradient',
 			},
+			{
+				name: 'jwt-auth',
+				color: 'yellow-text-gradient',
+			},
 		],
-		image: skillroute,
-		source_code_link: 'https://github.com/Swarnab-Code/Skill-Route',
+		image: todoapp,
+		source_code_link: 'https://github.com/Swarnab-Code/TODO_MERN',
 	},
 ];
 

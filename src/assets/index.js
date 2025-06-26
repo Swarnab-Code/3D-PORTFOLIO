@@ -16,12 +16,13 @@ import reactjs from './tech/reactjs.png';
 import tailwind from './tech/tailwind.png';
 import threejs from './tech/threejs.svg';
 
-import topstack from './company/topstack.png';
 import skillcraft from './company/skillcraft.png';
+import iitpatna from './company/iitpatna.png';
 
 import ecommexpress from './ecommexpress.png';
 import zoomora from './zoomora.png';
-import skillroute from './skillroute.png';
+import todoapp from './todoapp.png';
+
 import sih from './sih.png';
 
 export {
@@ -41,10 +42,10 @@ export {
 	reactjs,
 	tailwind,
 	threejs,
-	topstack,
 	skillcraft,
+	iitpatna,
 	ecommexpress,
 	zoomora,
-	skillroute,
-	sih
+	todoapp,
+	sih,
 };
